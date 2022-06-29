@@ -1,0 +1,162 @@
+*{
+	font-family: sans-serif;
+	padding: 0;
+	margin: 0
+}
+.body{
+	height: 100%;
+}
+.sosmed{
+	background-color: #049FA4;
+	padding: 5px;
+}
+.sosmed ul li{
+	display: inline-block;
+	padding-right: 5px;
+	padding: 5px;
+}
+.sosmed a{
+	color: white;
+	text-decoration: none;
+}
+.container{
+	margin-left: 10%;
+}
+.container:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+header a{
+	color: #049FA4;
+}
+header h1{
+	 float: left;
+	 padding: 15px 0;
+}
+header ul{
+	 float: right;
+}
+header ul li{
+	display: inline-block;
+}
+header a{
+	text-decoration: none;
+}
+header ul li a{
+	display: inline-block;
+	padding: 25px 20px;
+}
+header ul li a:hover{
+	background-color: #049FA4;
+	color: white;
+}
+.active{
+	background-color: #049FA4;
+}
+.active a{
+	color: white;
+}
+.banner{
+	height: 400px;
+	border: 1px solid;
+	background-image: url(img/img.jpg);
+	background-size: cover;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.banner:after{
+	content: '';
+	display: block;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgb(4, 159, 164, .5); 
+}
+.banner h2{
+	z-index: 1;
+	color: white;
+	padding: 20px;
+	border: 3px solid;
+}
+.content{
+	height: 40px;
+	border: 2px solid;
+	background-color: #049FA4
+}
+.content h2{
+	text-align: center;
+}
+.flex-column{
+	display: flex;
+	flex-direction: column;
+}
+.flex-row{
+	display: flex;
+	flex-direction: row;
+}
+.main{
+	margin-top: 10px;	
+}
+.main h2{
+	background-color: #ACCCCC
+}
+.main h3{
+	padding: 5px;
+}
+.main p{
+	text-align: justify;
+	margin-left: 6px;
+	margin-right: 6px;
+}
+.Gallery1{
+	border: 3px solid #049FA4;
+	box-sizing: border-box;
+	flex-basis: 25%;
+	margin: 10px;
+}
+.Gallery2{
+	border: 3px solid #049FA4;
+	box-sizing: border-box;
+	flex-basis: 25%;
+	margin: 10px;
+}
+.Gallery3{
+	border: 3px solid #049FA4;
+	box-sizing: border-box;
+	flex-basis: 25%;
+	margin: 10px;
+}
+.Gallery4{
+	border: 3px solid #049FA4;
+	box-sizing: border-box;
+	flex-basis: 25%;
+	margin: 10px;
+}
+.des{
+	padding: 5px;
+	text-align: center;
+	background-image: url(../Prak-04/email-pattern.png);
+	height: 100px;
+	border: 1px solid #049FA4;
+}
+footer {
+  width: 100%;
+  background-color: #049FA4;
+  color: white;
+  text-align: center;
+  height: 50px;
+}
+footer p{
+	padding-top: 14px;
+}
+
+@media screen and (max-width: 600px) {
+	.flex-row{
+		flex-direction: column;
+	}	
+}
